@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap');
+*{
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+.container{
+    height: 80px;
+}
+.logo img{
+    width: 100px;
+    padding-left: 30px;
+}
+img{
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+    width: 150px;
+    object-fit: cover;
+    padding-top: 5px;
+}
+.text{
+    padding: 30px 0px 0px;
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: black;
+    height: 100px;
+}
+.text span{
+    padding-right: 100px;
+}
+.main{
+    height: 590px;
+    background-image: url('image-4.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main::before{
+    content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.above-text{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    text-align: center;
+    padding-top: 50px;
+}
+.heading-3{
+    font-size: 24px;
+    line-height: 36px;
+    color: #F5C51C;
+}
+.heading-2{
+    font-size: 45px;
+    line-height: 60px;
+    color: white;
+}
+.para-text{
+    font-size: 18px;
+    line-height: 28px;
+    color: #bdbdbd;
+}
+button{
+    padding: 15px 40px;
+    margin-top: 20px;
+    color: white;
+    background-color: #F5C51C;
+    border: 0px;
+    font-size: 18px;
+}
+.second-section{
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.area{
+    color: black;
+    line-height: 28px;
+    width: 50%;
+}
+.main-image{
+    width: 50%;
+    transform: translateX(20%);
+    object-fit: cover;
+}
+.main-image img{
+   height: 250px;
+   width: 390px;
+   object-fit: cover;
+}
+h3{
+    font-size: 24px;
+    line-height: 36px;
+    color: #F5C51C;
+}
+h2{
+    font-size: 32px;
+    line-height: 46px;
+}
+p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #bdbdbd;
+}
+.footer{
+    height: 100px;
+    padding: 40px 0px 20px 0px;
+    background-color: black;
+    
+}
+.icons{
+    font-size: 32px;
+    color: #F5C51C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon-text{
+    font-size: 22px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px 20px 10px;
+    letter-spacing: 2px;
+}
